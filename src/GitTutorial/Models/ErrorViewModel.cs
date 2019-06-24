@@ -4,7 +4,7 @@ namespace GitTutorial.Models
     {
         public ErrorViewModel()
         {
-            Message = "OK";
+            Message = "OK!";
         }
 
         public string RequestId { get; set; }
