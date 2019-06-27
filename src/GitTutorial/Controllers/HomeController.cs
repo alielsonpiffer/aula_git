@@ -18,6 +18,7 @@ namespace GitTutorial.Controllers
         public IActionResult Privacy()
         {
             return View();
+            //alteração
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
