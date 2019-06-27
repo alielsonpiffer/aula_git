@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore;
+﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
 namespace GitTutorial
@@ -15,6 +8,7 @@ namespace GitTutorial
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            //alteração
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
