@@ -12,7 +12,7 @@ namespace GitTutorial.Controllers
 
             // alteração
 
-            // outra alteração
+            // outra alteração             // outra alteração (conflito)
 
             // nova alteração
 
