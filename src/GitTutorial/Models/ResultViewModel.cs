@@ -1,10 +1,10 @@
 namespace GitTutorial.Models
 {
-    public class ErrorViewModel
+    public class ResultViewModel
     {
-        public ErrorViewModel()
+        public ResultViewModel()
         {
-            Message = "Erro!";
+            Message = "OK!";
         }
 
         public string RequestId { get; set; }
