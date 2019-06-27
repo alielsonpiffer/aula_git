@@ -10,6 +10,8 @@ namespace GitTutorial.Controllers
         {
             // algo legal 1 :)
 
+            // algo legal 2 :D
+
             return View();
         }
 
