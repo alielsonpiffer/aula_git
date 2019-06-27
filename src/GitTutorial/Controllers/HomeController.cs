@@ -8,6 +8,8 @@ namespace GitTutorial.Controllers
     {
         public IActionResult Index()
         {
+            // algo legal 1 :)
+
             return View();
         }
 
