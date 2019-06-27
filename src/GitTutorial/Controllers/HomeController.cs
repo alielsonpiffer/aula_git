@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GitTutorial.Models;
 using Microsoft.AspNetCore.Mvc;
-using GitTutorial.Models;
+using System.Diagnostics;
 
 namespace GitTutorial.Controllers
 {
@@ -12,6 +8,8 @@ namespace GitTutorial.Controllers
     {
         public IActionResult Index()
         {
+            // TODO: Carregar dados!
+
             return View();
         }
 
