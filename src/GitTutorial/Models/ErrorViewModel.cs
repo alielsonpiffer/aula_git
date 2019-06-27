@@ -5,6 +5,7 @@ namespace GitTutorial.Models
         public ErrorViewModel()
         {
             Message = "OK!";
+            // altereação mais nova ainda
         }
 
         public string RequestId { get; set; }
